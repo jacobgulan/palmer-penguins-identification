@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "palmer"
+version = "0.1.0"
+description = "Computer Vision project identifying Palmer penguins"
+authors = ["Jacob Gulan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.24.1"
+pandas = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
